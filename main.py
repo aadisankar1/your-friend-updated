@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 # --- Configuration ---
 # Replace with your bot token. You can get this from BotFather.
 # It's highly recommended to use environment variables for sensitive data.
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "7591885165:AAGzRc3T5vHNCU3VTQvPH94w2qDMsCAyJAo") # Replace "YOUR_BOT_TOKEN_HERE" with your actual bot token
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "") # Replace "YOUR_BOT_TOKEN_HERE" with your actual bot token
 BANNED_WORDS_FILE = "banned.txt"
 
 # Set to store banned words for efficient lookup
