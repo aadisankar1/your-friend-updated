@@ -70,8 +70,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Sends a welcome message when the /start command is issued."""
     await update.message.reply_text(
         """
-Hey, this is your friendly bot!
-I am a friendly bot, made by @aadiv2bot.
+Hey, this is your new friend!
+I am a sensor bot for swear words, made by @aadiv2bot.
 No user ID is shown because of security reasons.
 I'm ready!
 """
